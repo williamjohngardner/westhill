@@ -4,6 +4,7 @@
         <img src="#" alt="Dogwood Digital">
     </div>
     <div name="introduction">
+        <a name="about"></a>
         <h2>Here is the div Title</h2>
         <h5>Here is description text</h5>
         <img src="#" alt="#">
@@ -17,6 +18,7 @@
         <h2>Call To Action 1</h2>
         <button name="cta">Contact Us</button>
     </div>
+    <a name="services"></a>
     <div name="service-1">
         <h3>Service One - What's Good</h3>
         <img src="#" alt="">

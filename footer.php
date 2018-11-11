@@ -1,4 +1,5 @@
     <div>
+      <a name="contact"></a>
       <h3>Dogwood Digital</h3>
       <h5>5816 Hideaway Drive</h5>
       <h5>Chapel Hill, NC </h5>
