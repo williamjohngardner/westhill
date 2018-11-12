@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <div name="hero">
-        <img src="#" alt="Dogwood Digital">
+        <img src="<?php bloginfo('template_directory'); ?>/images/hero_preview.png" alt="Dogwood Digital">
     </div>
     <div name="introduction">
         <a name="about"></a>
