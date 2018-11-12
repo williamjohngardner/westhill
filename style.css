@@ -136,7 +136,7 @@ h1 {
   color: #fff;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  /*font-size: 2.5em;*/
+  font-size: 3.5em;
   text-align: center;
   text-transform: uppercase;
   padding: 10px 0;
@@ -144,15 +144,57 @@ h1 {
 
 h2 {
   color: #333;
-  /*font-size: 2.4em;*/
+  font-size: 3em;
   font-weight: 400;
 }
 
 h3 {
   color: #333;
-  /*font-size: 2em;*/
+  font-size: 2em;
   font-weight: 400;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.section-titles {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  text-align: justify;
+  margin: 20px 100px;
+}
+
+.section-detail-text {
+  width: 200px;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.services {
+  position: relative;
+  text-align: center;
+}
+
+.services-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*--------------------------------------------------------------
+2.0 - BUTTONS
+--------------------------------------------------------------*/
 
 button.cta {
   font-family: 'Oswald', sans-serif;
@@ -172,10 +214,54 @@ button.cta {
   margin-right: 75px;
 }
 
-/*--------------------------------------------------------------
-2.0 - NAVIGATION
---------------------------------------------------------------*/
+.sitewide-cta {
+  float: right;
+  margin-right: 75px;
+}
 
-/* .main-menu li {
-  display: inline;
-} */
+.cta-title {
+  color: #958040;
+}
+
+/*--------------------------------------------------------------
+3.0 - FORMS
+--------------------------------------------------------------*/
+form input {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+
+form textarea {
+  font-family: 'Oswald', sans-serif;
+}
+
+/*--------------------------------------------------------------
+4.0 - FOOTER
+--------------------------------------------------------------*/
+footer {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-contact {
+  margin-top: 20px;
+}
+
+.contact-info {
+  margin-top: 8px;
+}
+
+.contact-email {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-link {
+  color: #fff;
+}
