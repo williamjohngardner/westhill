@@ -1,8 +1,9 @@
 <?php get_header(); ?>
-
-    <div name="hero" class="services">
-        <h1 class="services-text">WE DELIVER ROI TO OUR CLIENTS</h1>
-        <img src="<?php bloginfo('template_directory'); ?>/images/hero_preview.png" alt="Dogwood Digital">
+    <div class="col-12">
+        <div name="hero" class="services">
+          <h1 class="services-text">WE DELIVER ROI TO OUR CLIENTS</h1>
+          <img src="<?php bloginfo('template_directory'); ?>/images/hero_preview.png" alt="Dogwood Digital">
+        </div>
     </div>
     <div name="introduction" class="intro">
         <a name="about"></a>

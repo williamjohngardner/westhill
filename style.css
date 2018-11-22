@@ -211,7 +211,7 @@ button.cta {
 
 #headercta {
   float: right;
-  margin-right: 75px;
+  margin-top: 15px;
 }
 
 .sitewide-cta {
@@ -224,7 +224,28 @@ button.cta {
 }
 
 /*--------------------------------------------------------------
-3.0 - FORMS
+3.0 - HEADER
+--------------------------------------------------------------*/
+#logo-main {
+  margin-top: 10px;
+}
+
+.main-menu {
+  background-color: #958040;
+  padding: 5px 0;
+}
+
+.main-menu li {
+  display: inline;
+  margin-right: 5%;
+}
+
+.main-menu a {
+  color: #333;
+}
+
+/*--------------------------------------------------------------
+4.0 - FORMS
 --------------------------------------------------------------*/
 form input {
   display: block;
@@ -238,7 +259,7 @@ form textarea {
 }
 
 /*--------------------------------------------------------------
-4.0 - FOOTER
+5.0 - FOOTER
 --------------------------------------------------------------*/
 footer {
   text-align: center;

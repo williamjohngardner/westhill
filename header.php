@@ -13,9 +13,34 @@
   </head>
   <body <?php body_class(); ?>>
     <header>
-      <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/Logo_opt_375px.png" alt="Dogwood Digital Logo"></a>
-      <button name="cta" class="cta" id="headercta">Contact Us</button>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <a href="<?php bloginfo('url'); ?>"><img id="logo-main" src="<?php bloginfo('template_directory'); ?>/images/Logo_opt_375px.png" alt="Dogwood Digital Logo"></a>
+          </div>
+          <div class="col-4"></div>
+          <div class="col-4">
+            <button name="cta" class="cta" id="headercta">Contact Us</button>
+          </div>
+        </div>
+      </div>
     </header>
-    <nav class="main-menu">
-
+    <nav class="main-menu container-fluid">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-5">
+          <?php
+            $defaults = array(
+              // 'container' => true,
+              'theme_location' => 'main-menu',
+              'menu_class' => 'main-menu',
+              'menu' => 'Main Menu',
+              'container_id' => 'cssmenu',
+              'walker' => new CSS_Menu_Walker()
+            );
+            wp_nav_menu( $defaults );
+          ?>
+        </div>
+        <div class="col-6"></div>
+      </div>
     </nav>
