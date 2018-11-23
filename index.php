@@ -1,8 +1,23 @@
 <?php get_header(); ?>
-    <div class="col-12">
-        <div name="hero" class="services">
-          <h1 class="services-text">WE DELIVER ROI TO OUR CLIENTS</h1>
-          <img src="<?php bloginfo('template_directory'); ?>/images/hero_preview.png" alt="Dogwood Digital">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div name="hero" class="services">
+                    <div class="services-text" id="hero-text-background">
+                        <h1>WE DELIVER ROI TO OUR CLIENTS</h1>
+                    </div>
+                    <div>
+                        <img src="<?php bloginfo('template_directory'); ?>/images/hero_preview.jpg" alt="Dogwood Digital" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <hr class="horiz-rule">
+            </div>
         </div>
     </div>
     <div name="introduction" class="intro">

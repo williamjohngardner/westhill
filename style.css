@@ -154,6 +154,14 @@ h3 {
   font-weight: 400;
 }
 
+.horiz-rule {
+  border: none;
+  background-color: #958040;
+  height: 4px;
+  width: 80%;
+  margin-top: 15px;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -185,13 +193,6 @@ h3 {
   text-align: center;
 }
 
-.services-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 /*--------------------------------------------------------------
 2.0 - BUTTONS
 --------------------------------------------------------------*/
@@ -200,12 +201,12 @@ button.cta {
   font-family: 'Oswald', sans-serif;
   color: #fff;
   font-size: 1.5em;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
   text-transform: uppercase;
   padding: 10px 0;
   background-color: #333;
-  border-radius: 7px;
+  border-radius: 4px;
   width: 150px;
 }
 
@@ -230,18 +231,54 @@ button.cta {
   margin-top: 10px;
 }
 
+/*--------------------------------------------------------------
+3.1 - NAVIGATION
+--------------------------------------------------------------*/
+
 .main-menu {
   background-color: #958040;
-  padding: 5px 0;
+  height: 50px;
+}
+
+.main-menu ul {
+  padding-top: 8px;
+  padding-left: 15px;
 }
 
 .main-menu li {
   display: inline;
   margin-right: 5%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .main-menu a {
-  color: #333;
+  color: rgb(209, 209, 209);
+  vertical-align: middle;
+}
+
+/*--------------------------------------------------------------
+3.2 - HERO
+--------------------------------------------------------------*/
+.hero-image {
+  margin-bottom: 20px;
+}
+
+.services-text {
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: #999;
+}
+
+#hero-text-background {
+  background-color: #333;
+  opacity: .75;
+  padding: 10px;
+  width: 80%;
 }
 
 /*--------------------------------------------------------------

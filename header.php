@@ -27,7 +27,6 @@
     </header>
     <nav class="main-menu container-fluid">
       <div class="row">
-        <div class="col-1"></div>
         <div class="col-5">
           <?php
             $defaults = array(
@@ -41,6 +40,6 @@
             wp_nav_menu( $defaults );
           ?>
         </div>
-        <div class="col-6"></div>
+        <div class="col-7"></div>
       </div>
     </nav>
