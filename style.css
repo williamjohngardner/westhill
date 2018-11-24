@@ -100,10 +100,6 @@ p, li, ul, ol  {
   font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family:'Oswald', sans-serif;
-}
-
 body {
   line-height: 1;
 }
@@ -144,14 +140,29 @@ h1 {
 
 h2 {
   color: #333;
+  font-family:'Oswald', sans-serif;
   font-size: 3em;
   font-weight: 400;
 }
 
 h3 {
   color: #333;
+  font-family:'Oswald', sans-serif;
   font-size: 2em;
   font-weight: 400;
+}
+
+h4 {
+  font-family:'Oswald', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+h5 {
+  color: #333;
+  font-family:'Oswald', sans-serif;
+  font-weight: 300;
+  line-height: 1.25;
 }
 
 .horiz-rule {
@@ -177,22 +188,6 @@ h3 {
   margin-bottom: 20px;
 }
 
-.section-text {
-  text-align: justify;
-  margin: 20px 100px;
-}
-
-.section-detail-text {
-  width: 200px;
-  text-align: justify;
-  margin-top: 15px;
-}
-
-.services {
-  position: relative;
-  text-align: center;
-}
-
 /*--------------------------------------------------------------
 2.0 - BUTTONS
 --------------------------------------------------------------*/
@@ -211,7 +206,7 @@ button.cta {
 }
 
 #headercta {
-  float: right;
+  float: right !important;
   margin-top: 15px;
 }
 
@@ -266,7 +261,17 @@ button.cta {
   margin-bottom: 20px;
 }
 
-.services-text {
+.hero-background {
+  border: none;
+  background-color: #958040;
+  height: 150px;
+  width: 100%;
+  top: 70%;
+  position: absolute;
+  z-index: -9999;
+}
+
+.hero-text {
   position: absolute;
   top: 50%;
   left: 49%;
@@ -282,7 +287,58 @@ button.cta {
 }
 
 /*--------------------------------------------------------------
-4.0 - FORMS
+4.0 - SERVICES SECTION
+--------------------------------------------------------------*/
+
+.services {
+  position: relative;
+  text-align: center;
+}
+
+.services-text {
+  text-align: justify;
+  margin: 50px 100px;
+}
+
+.services-sub-title h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.services-detail-text {
+  width: 340px;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.services-overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: #999;
+}
+
+.services-background {
+  border: none;
+  background-color: #958040;
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  top: 145%;
+  z-index: -9999;
+}
+
+.services-image {
+  box-shadow: #333 3px 3px 5px;
+}
+
+#cta1 {
+  float: right;
+}
+
+/*--------------------------------------------------------------
+5.0 - FORMS
 --------------------------------------------------------------*/
 form input {
   display: block;
@@ -296,7 +352,7 @@ form textarea {
 }
 
 /*--------------------------------------------------------------
-5.0 - FOOTER
+6.0 - FOOTER
 --------------------------------------------------------------*/
 footer {
   text-align: center;
