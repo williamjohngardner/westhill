@@ -192,7 +192,7 @@ h5 {
 2.0 - BUTTONS
 --------------------------------------------------------------*/
 
-button.cta {
+#headercta {
   font-family: 'Oswald', sans-serif;
   color: #fff;
   font-size: 1.5em;
@@ -200,23 +200,24 @@ button.cta {
   text-align: center;
   text-transform: uppercase;
   padding: 10px 0;
-  background-color: #333;
+  background-color: #100f3b;
   border-radius: 4px;
-  width: 150px;
-}
-
-#headercta {
+  width: 45%;
   float: right !important;
   margin-top: 15px;
 }
 
-.sitewide-cta {
-  float: right;
-  margin-right: 75px;
-}
-
-.cta-title {
-  color: #958040;
+#cta1 {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 0;
+  background-color: #333;
+  border-radius: 4px;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -266,7 +267,7 @@ button.cta {
   background-color: #958040;
   height: 150px;
   width: 100%;
-  top: 70%;
+  top: 515px;
   position: absolute;
   z-index: -9999;
 }
@@ -279,11 +280,12 @@ button.cta {
   color: #999;
 }
 
-#hero-text-background {
+.hero-text-background {
   background-color: #333;
   opacity: .75;
-  padding: 10px;
+  padding: 50px;
   width: 80%;
+  height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -295,20 +297,32 @@ button.cta {
   text-align: center;
 }
 
+.triple card {
+  background-color: #fff;
+}
+
+.triple.card-images-top :hover{
+  transform:scale(2);
+}
+
 .services-text {
   text-align: justify;
   margin: 50px 100px;
 }
 
 .services-sub-title h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.75em;
+  font-weight: 500;
+  text-transform: capitalize;
   text-align: center;
   margin-top: 10px;
 }
 
 .services-detail-text {
-  width: 340px;
   text-align: justify;
   margin-top: 15px;
+  padding: 15px;
 }
 
 .services-overlay-text {
@@ -325,21 +339,85 @@ button.cta {
   height: 150px;
   width: 100%;
   position: absolute;
-  top: 145%;
+  top: 1100px;
   z-index: -9999;
 }
 
-.services-image {
-  box-shadow: #333 3px 3px 5px;
+/*--------------------------------------------------------------
+5.0 - Call To Action
+--------------------------------------------------------------*/
+.CTA {
+  background-color: #100f3b;
+  padding: 4% 0;
 }
 
-#cta1 {
+.sitewide-cta {
   float: right;
+  margin-right: 75px;
+}
+
+.cta-title {
+  color: #958040;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /*--------------------------------------------------------------
-5.0 - FORMS
+6.0 - FORMS
 --------------------------------------------------------------*/
+#wpcf7-f19-o1 p {
+  padding: 10px 25px;
+}
+
+#wpcf7-f19-o1 label{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.submitButton {
+  width: 100%;
+  background-color: #958040;
+  height: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  border: none;
+}
+
+.formInput {
+  background-color: #fff;
+  margin-top: 5px;
+  height: 40px;
+  border: none;
+  padding: 0 7px;
+}
+
+#wpcf7-f19-o1 textarea {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 5px;
+  border: none;
+  padding: 7px;
+}
+
+#footerSubmit {
+  width: 100%;
+  background-color: #100f3b;
+  height: 25px;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  height: 35px;
+  text-transform: uppercase;
+  border: none;
+  margin: 6px 0;
+}
+
 form input {
   display: block;
   margin: 10px 0;
@@ -349,22 +427,27 @@ form input {
 
 form textarea {
   font-family: 'Oswald', sans-serif;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
-6.0 - FOOTER
+7.0 - FOOTER
 --------------------------------------------------------------*/
 footer {
   text-align: center;
   width: 100%;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   background-color: #333;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+.footer-background {
+  background-color: #958040;
+}
+
 .footer-contact {
-  margin-top: 20px;
+  padding: 20px 0;
 }
 
 .contact-info {
@@ -378,4 +461,34 @@ footer {
 
 .footer-link {
   color: #fff;
+}
+
+.footer-contact-container {
+  margin: 20px 0;
+}
+
+#map {
+  margin-top: 10px;
+}
+
+/*--------------------------------------------------------------
+8.0 - PARALAX
+--------------------------------------------------------------*/
+.paralax {
+  height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.paralax1 {
+  background-image: url("images/paralax1.jpg");
+}
+
+.paralax2 {
+  background-image: url("images/paralax2.jpg");
+}
+
+.paralax3 {
+  background-image: url("images/paralax3.jpg");
 }

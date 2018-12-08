@@ -18,10 +18,12 @@
           <div class="col-4">
             <a href="<?php bloginfo('url'); ?>"><img id="logo-main" src="<?php bloginfo('template_directory'); ?>/images/Logo_opt_375px.png" alt="Dogwood Digital Logo"></a>
           </div>
-          <div class="col-4"></div>
+          <div class="col-3"></div>
           <div class="col-4">
-            <button name="cta" class="cta" id="headercta">Contact Us</button>
+            <button name="cta" class="cta shiftnav-toggle shiftnav-toggle-button" 
+            data-shiftnav-target="slide_out_contact_form" id="headercta">Contact Us</button>
           </div>
+          <div class="col-1"></div>
         </div>
       </div>
     </header>
