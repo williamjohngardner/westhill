@@ -115,43 +115,45 @@
             <div class="col-4"></div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <hr class="horiz-rule">
-            </div>
-        </div>
-    </div>
     <div class="paralax paralax1"></div>
-    <div>
-        <a name="services"></a>
-        <div name="service-1" class="services">
-            <div class="hero-text hero-text-background">
-                <h2 class="services-overlay-text">Service One - What's Good</h2>
+    <a name="services"></a>
+    <div name="CTA-2 " class="container-fluid CTA">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h2 class="cta-title">our account managers are waiting to help you vote for Pedro to make all of your wildest dreams come true!</h2>
             </div>
-            <div>
-                <img src="<?php bloginfo('template_directory'); ?>/images/team_shot.png" alt="">
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <button style="display: inline;" name="cta" class="cta shiftnav-toggle shiftnav-toggle-button" 
+            data-shiftnav-target="slide_out_contact_form" id="cta1">Contact Dogwood Digital Today!</button>
             </div>
+            <div class="col-4"></div>
         </div>
     </div>
     <div class="paralax paralax2"></div>
-    <div>
-        <div name="service-2" class="services">
-            <div class="hero-text hero-text-background">
-                <h2 class="services-overlay-text">Service Two - What's Cool</h2>
+    <div name="CTA-3 " class="container-fluid CTA">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h2 class="cta-title">our account managers are waiting to help you vote for Pedro to make all of your wildest dreams come true!</h2>
             </div>
-            <img src="<?php bloginfo('template_directory'); ?>/images/team_shot.png" alt="">
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <button style="display: inline;" name="cta" class="cta shiftnav-toggle shiftnav-toggle-button" 
+            data-shiftnav-target="slide_out_contact_form" id="cta1">Contact Dogwood Digital Today!</button>
+            </div>
+            <div class="col-4"></div>
         </div>
     </div>
     <div class="paralax paralax3"></div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <hr class="horiz-rule">
-            </div>
-        </div>
-    </div>
-    <div name="CTA-2 " class="container-fluid CTA">
+    <div name="CTA-4 " class="container-fluid CTA">
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8">
